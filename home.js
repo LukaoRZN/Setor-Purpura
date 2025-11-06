@@ -1,3 +1,3 @@
 window.onload = function() {
-    window.print("hi");
+    alert("Página em construção, estamos trabalhando para melhorar sua experiência.");
 }
