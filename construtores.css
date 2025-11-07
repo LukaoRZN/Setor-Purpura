@@ -1,0 +1,151 @@
+body{ 
+font-size: 10px;
+color: #fff;
+  
+}
+
+.banner {
+  background: black;
+  text-align: center;
+}
+
+.equipes {
+height: 150px;
+padding: 5px;
+margin: 7px;
+width: 90%;
+border-radius: 13px;
+overflow: scroll;
+color: white;
+background: #302a2a;
+background: linear-gradient(60deg, rgba(48, 42, 42, 1) 8%, rgba(151, 13, 189, 1) 40%, rgba(1, 10, 10, 10.67) 70%);}
+
+.tabela {
+padding: 5px;
+border-radius: 8px;
+}
+
+table { border-collapse: collapse;
+}
+
+table th{
+width: 50px;
+}
+
+table td{
+padding-top: 10px;  
+}
+
+.tabela img {
+width: 20px;
+height: 20px;
+}
+
+#logo img{
+border-radius: 50%;
+width: 20px;
+}
+
+.button-17 {
+  align-items: center;
+  background: linear-gradient(145deg, #9e06ab, #bb07cb);
+  border-radius: 6px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 7px;
+  font-weight: 700;
+  height: 25px;
+  justify-content: center;
+  letter-spacing: 3px;
+  line-height: normal;
+  max-width: 100%;
+  padding:10px;
+  position: relative;
+  text-align: center;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  width: auto;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+  color: #000;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.list {
+  display: inline-flex;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-item {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  position: absolute;
+  list-style: none;
+}
+
+.list-item ul {
+  list-style: none;
+  position: relative;
+  padding: 10px;
+  
+}
+
+.list-item li {
+  padding: 1px;
+  margin: 5px;
+}
+
+.list:hover .list-item {
+  visibility: visible;
+  transition-delay: 0.3s;
+  overflow: visible;
+  color: #000;
+  text-align: left;
+  list-style-position: outside;
+}
