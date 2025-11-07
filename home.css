@@ -7,15 +7,22 @@ body {
   background: none;
 }
 
+h3 {
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #title {
   visibility: visible;
   background: white;
   position: relative;
   bottom: 80px;
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
-a {
-  color: #000;
-}
+
 .topico a {
   display: grid;
   text-decoration: none;
@@ -56,4 +63,7 @@ border-radius:10px ;
   transition-delay: 0.3s;
   visibility: visible;
   background: white;
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
