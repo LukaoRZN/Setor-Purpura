@@ -81,3 +81,43 @@ body { text-align: center; }
   padding: 10px;
   
 }
+
+.list {
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-item {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  list-style: none;
+}
+
+.list-item ul {
+  list-style: none;
+  padding: 10px;
+  
+}
+
+
+.list-item li {
+  padding: 1px;
+  margin: 5px;
+}
+
+
+.list:hover .list-item {
+  visibility: visible;
+  transition-delay: 0.3s;
+  overflow: visible;
+  color: #000;
+  text-align: left;
+  list-style-position: outside;
+}
