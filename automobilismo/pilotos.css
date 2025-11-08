@@ -3,7 +3,8 @@ font-size: 10px;
 color: #fff;
   
 nav {
-overflow-x: scroll;
+overflow-y: scroll;
+display: inline-flex;
 }
   
 }
