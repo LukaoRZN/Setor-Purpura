@@ -2,6 +2,10 @@ body{
 font-size: 10px;
 color: #fff;
   
+nav {
+overflow-x: scroll;
+}
+  
 }
 .banner {
   background: black;
