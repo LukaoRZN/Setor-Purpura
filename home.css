@@ -30,13 +30,10 @@ body{
 }
 
 .competições {
-width: 70%;
+width: 65%;
 float: left;
-height: 70%;
+height: 650%;
 background: yellow;
-  overflow: scroll;
-  
-  position: relative;
 
 
 }
@@ -73,13 +70,13 @@ width: 25%;
 .lista ul {
   list-style: none;
   text-decoration: none;
+position: relative;
 }
 
 
 iframe {
   border-radius: 30px;
   border: 1px solid black;
-  background: #fff;
    }
 
 a:hover { color: #3b3b3b;
