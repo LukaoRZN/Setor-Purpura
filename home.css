@@ -30,31 +30,24 @@ body{
 }
 
 .main {
-  width: 65%;
   height: 70%;
+display:inline-flex;
 overflow: scroll;
-position: absolute;
-
 }
 
 .competições {
 background: yellow;
 overflow: scroll;
-float: left ;
+float: left;
 }
 
 .lateral-nav {
-height: 70%;
-width: 25%;
-  margin: 5px;
   background: red;
   float: right;
-  position: relative;
 }
 
 .bottom{
   height: 15%;
-clear:both;
 }
 .lista {
   border-radius: 8px;
@@ -62,7 +55,7 @@ clear:both;
   width: 150px;
   height: 150px;
   margin: 5px;
-display: inline-table;
+  display: inline-table;
 }
 
 .lista:hover {
@@ -75,13 +68,15 @@ display: inline-table;
 .lista ul {
   list-style: none;
   text-decoration: none;
-  
 }
 
 
 iframe {
   border-radius: 30px;
   border: 1px solid black;
+  width: 250px;
+  height: 280px;
+  
    }
 
 a:hover { color: #3b3b3b;
