@@ -42,6 +42,8 @@ float: left;
 
 .lateral-nav {
   float: right;
+  text-align: center;
+  display: block;
 }
 
 .bottom{
@@ -72,11 +74,11 @@ float: left;
 iframe {
   border-radius: 30px;
   border: 1px solid black;
-  width: 250px;
-  height: 280px;
+  width: 140px;
+  height: 220px;
   background: white;
-  
-   }
+  overflow: scroll;
+  }
 
 a:hover { color: #3b3b3b;
   border-radius: 35px; }
