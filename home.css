@@ -36,13 +36,11 @@ overflow: scroll;
 }
 
 .competições {
-background: yellow;
 overflow: scroll;
 float: left;
 }
 
 .lateral-nav {
-  background: red;
   float: right;
 }
 
@@ -76,6 +74,7 @@ iframe {
   border: 1px solid black;
   width: 250px;
   height: 280px;
+  background: white;
   
    }
 
