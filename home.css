@@ -31,21 +31,26 @@ body{
 
 .competições {
 max-width: 70%;
+max-height: 80%;
 float: left;
+background: yellow;
 }
 
 .lateral-nav {
-  float: right;
   max-width: 25%;
+  max-height: 80%;
   align-items: center;
   margin: 5px;
+  background: red;
+  float: right;
+  position: relative;
 }
 
 .lista {
   display: inline-block;
   border-radius: 8px;
   background: #fff;
-  width: 170px;
+  width: 150px;
   height: 150px;
   overflow-x: scroll;
   margin: 5px;
